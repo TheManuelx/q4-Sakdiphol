@@ -1,0 +1,50 @@
+{
+  "author": {
+    "email": "n_tchanan@bangkok.go.th",
+    "name": "กองสารสนเทศภูมิศาสตร์ สำนักยุทธศาสตร์และประเมินผล"
+  },
+  "description": "ที่ตั้งโรงพยาบาลเอกชนในพื้นที่เขตกรุงเทพมหานคร",
+  "keywords": [
+    "กรุงเทพมหานคร",
+    "ที่ตั้ง",
+    "โรงพยาบาล"
+  ],
+  "license": {
+    "title": "DGA Open Government License",
+    "type": "ogl"
+  },
+  "name": "priv_hos",
+  "resources": [
+    {
+      "format": "SHP",
+      "name": "thiitangorngphyaabaale-kchnainphuuenthiiekhtkrungethphmhaankhr",
+      "path": "https://data.go.th/dataset/296f32c6-8c7e-4a54-ade0-0913d35d3168/resource/5eea0ffb-5701-4ebe-99a6-4942887d606c/download/priv_hos.zip",
+      "title": "ที่ตั้งโรงพยาบาลเอกชนในพื้นที่เขตกรุงเทพมหานคร"
+    },
+    {
+      "format": "XML",
+      "name": "thiitangorngphyaabaale-kchnainphuuenthiiekhtkrungethphmhaankhr-kml",
+      "path": "https://data.go.th/dataset/296f32c6-8c7e-4a54-ade0-0913d35d3168/resource/b3651fb9-9daf-4930-ae7a-7a7ee6b000d8/download/priv_hos.kml",
+      "title": "ที่ตั้งโรงพยาบาลเอกชนในพื้นที่เขตกรุงเทพมหานคร (KML)"
+    },
+    {
+      "format": "XML",
+      "name": "thiitangorngphyaabaale-kchnainphuuenthiiekhtkrungethphmhaankhr-gml",
+      "path": "https://data.go.th/dataset/296f32c6-8c7e-4a54-ade0-0913d35d3168/resource/176c75e6-80a7-4658-ab4c-63fc97b38fcc/download/priv_hos.gml",
+      "title": "ที่ตั้งโรงพยาบาลเอกชนในพื้นที่เขตกรุงเทพมหานคร (GML)"
+    },
+    {
+      "format": "JSON",
+      "name": "thiitangorngphyaabaale-kchnainphuuenthiiekhtkrungethphmhaankhr-json",
+      "path": "https://data.go.th/dataset/296f32c6-8c7e-4a54-ade0-0913d35d3168/resource/d132638d-a243-4829-aed8-10ed4fad917f/download/priv_hos.json",
+      "title": "ที่ตั้งโรงพยาบาลเอกชนในพื้นที่เขตกรุงเทพมหานคร (JSON)"
+    },
+    {
+      "format": "PDF",
+      "name": "phcchnaanukrmkh-muul",
+      "path": "https://data.go.th/dataset/296f32c6-8c7e-4a54-ade0-0913d35d3168/resource/368fb096-2b2f-4993-9624-51c97e2904f5/download/priv_hos.pdf",
+      "title": "พจนานุกรมข้อมูล"
+    }
+  ],
+  "title": "ที่ตั้งโรงพยาบาลเอกชนในพื้นที่เขตกรุงเทพมหานคร"
+}

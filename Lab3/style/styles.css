@@ -1,0 +1,9 @@
+
+  tr {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+tr:hover{
+    background-color: #6afffd;
+}

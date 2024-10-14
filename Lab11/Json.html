@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script>
+        async function getDataFromAPI() {
+        let response = await fetch('datapackage.json')
+        objectData = JSON.parse(rawData)
+        let rawData = await response.text() 
+        let objectData = JSON.parse(rawData)
+        let result = document.getElementById('result')
+        for (let i = 0; i < objectData.data.length; i++) {
+            let content = 'ปี' + objectData.data[i].year + ': '
+            content += objectData.data[i].debt_value + ' บาท'
+            let li = document.createElement('li')
+            li.innerHTML = content
+            result.appendChild(li)
+            }
+        }
+        getDataFromAPI() // เรียกฟังก์ชัน
+    </script>
+</head>
+<body>
+    <h1>จํานวนหนี้สินเฉลี่ยตอครัวเรือน จ.ขอนแก่น พ.ศ. 2539 - 2556</h1>
+    <ul id="result"></ul>
+</body></html>
